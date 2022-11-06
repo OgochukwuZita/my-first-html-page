@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html-card-practice-project</title>
+  <style>
+    .body {
+      border: 1px solid black;
+      padding: 6px;
+      width: 18%;
+      padding: 3px;
+      border-radius: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+      background-color: #f8f0c6
+    }
+
+    #border-bottom {
+      border-bottom: dotted;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li::before {
+      content: '\2714\0020';
+    }
+
+    button {
+      border-radius: 50px;
+      padding: 20px;
+      margin: 0px;
+      background-color: white;
+      min-height: 10px;
+      min-width: 250px;
+      border-width: 1px;
+    }
+
+    .class1 {
+      font-size: 45px;
+    }
+  </style>
+</head>
+<div class="body">
+
+  <body>
+    <h3><b>Plus</b></h3>
+    <p>For teams looking to create connected apps to manage their own workflows</p>
+    <div>
+      <span class="class1">$10</span> <span>per seat/per month <br> billed annually</span>
+      <div>
+        <br>
+        <p> $12 billed monthly</p>
+      </div>
+      <div class="class3">
+        <button>Try for free</button>
+      </div>
+      <div>
+        <p>Everything in Free, plus:</p>
+      </div>
+      <div>
+        <ul>
+          <li>3 <span id="border-bottom">extensions</span> per base </li>
+          <li>3 sync integrations</li>
+          <li>5000 records per base</li>
+          <li>5GB of attachments per base</li>
+          <li>Custom branded forms</li>
+          <li>6-month revision and snapshot history</li>
+          <li>Automatic table syncing</li>
+        </ul>
+      </div>
+  </body>
+</div>
+
+</html>
